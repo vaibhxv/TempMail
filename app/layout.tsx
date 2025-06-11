@@ -19,14 +19,14 @@ export const metadata: Metadata = {
     address: false,
     telephone: false,
   },
-  metadataBase: new URL('https://tempgen.app'),
+  metadataBase: new URL('https://tempsecurehub.com/'),
   alternates: {
     canonical: '/',
   },
   openGraph: {
     title: 'TempGen - Temporary Email, Phone & Address Generator',
     description: 'Generate temporary email addresses, phone numbers, and addresses for privacy protection.',
-    url: 'https://tempgen.app',
+    url: 'https://tempsecurehub.com/',
     siteName: 'TempGen',
     images: [
       {
@@ -81,7 +81,7 @@ export default function RootLayout({
               "@type": "WebApplication",
               "name": "TempGen",
               "description": "Generate temporary email addresses, phone numbers, and addresses for privacy protection.",
-              "url": "https://tempgen.app",
+              "url": "https://tempsecurehub.com/",
               "applicationCategory": "UtilityApplication",
               "operatingSystem": "Web",
               "offers": {
